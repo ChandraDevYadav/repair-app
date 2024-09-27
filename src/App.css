@@ -1,0 +1,56 @@
+.slick-dots .slick-active div {
+  background-color: #f97316; /* Tailwind's bg-orange-500 */
+  color: white; /* Tailwind's text-white */
+  font-weight: 600;
+}
+
+/* Target the slick dots */
+.slick-dots {
+  position: absolute;
+  left: 10px; /* Adjust left to position the dots */
+  top: 58%;
+  transform: translateY(-50%); /* Center vertically */
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); /* Create 3 columns */
+  grid-auto-rows: 1fr; /* Ensure consistent row height */
+  gap: 10px; /* Space between dots */
+  width: auto;
+  list-style: none;
+}
+
+/* Individual dot styling */
+.slick-dots li {
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  color: #000;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #ff4500 !important; /* Active dot color */
+}
+
+
+.play-button {
+
+
+  /* Animation: pulsing */
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.8);
+  }
+}
