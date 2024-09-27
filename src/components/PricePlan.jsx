@@ -3,8 +3,8 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const PricePlan = () => {
   return (
-    <div className="my-12">
-      <div className="mx-20">
+    <div className="my-[16rem] md:my-12">
+      <div className="mx-4 md:mx-20">
         <p className="text-xl font-medium text-orange-500 flex gap-3 items-center">
           <img
             src="./ac.png"
@@ -13,124 +13,60 @@ const PricePlan = () => {
           />
           OUR PRICE PLAN
         </p>
-        <h1 className="text-5xl font-bold my-5 text-[#010f34]">
+        <h1 className="text-3xl md:text-5xl font-bold my-5 text-[#010f34]">
           Where Comfort Meets Efficiency
         </h1>
       </div>
       <div className="flex justify-end">
         <Tabs defaultValue="monthly" className="w-full">
-          <TabsList className="flex justify-start ml-12 w-[15.3rem]">
-            <TabsTrigger value="monthly" className="bg-orange-500 text-white px-8">Monthly</TabsTrigger>
-            <TabsTrigger value="yearly" className="bg-orange-500 text-white px-10">Yearly</TabsTrigger>
+          <TabsList className="flex justify-start ml-0 md:ml-12 w-full">
+            <TabsTrigger value="monthly" className="bg-orange-500 text-white px-4 md:px-8">Monthly</TabsTrigger>
+            <TabsTrigger value="yearly" className="bg-orange-500 text-white px-4 md:px-10">Yearly</TabsTrigger>
           </TabsList>
           <TabsContent value="monthly" className='mt-10'>
-            <div className="grid grid-cols-3 gap-x-16">
-              <div className="flex justify-center shadow-lg border mx-12 py-10" >
-                <div>
-                <div className="flex items-center gap-3 my-4">
-                <img src="./plan11.png" alt="" className="w-24 h-20"/>
-                <p className="text-xl font-bold underline">Basic Plan</p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {['Basic Plan', 'Standard Plan', 'Premium Plan'].map((plan, index) => (
+                <div key={index} className="flex justify-center shadow-lg border mx-4 md:mx-0 py-10">
+                  <div className="relative">
+                    <div className="flex items-center gap-3 my-4">
+                      <img src={`./plan${index + 1}.png`} alt="" className="w-24 h-20"/>
+                      <p className="text-xl font-bold underline">{plan}</p>
+                    </div>
+                    <img src="./price_shape.svg" alt="" className="absolute left-1/2 transform -translate-x-1/2 top-16" />
+                    <ul className="leading-loose">
+                      {['Refrigerant leak detection & repair', 'Thermostat replacement', 'Clean condenser coil', 'Air filter replacement', 'AC fan replacement'].map((item, idx) => (
+                        <li key={idx} className="flex gap-3 items-center">
+                          <img src="./tick.svg" alt="" className="w-4 h-4" />
+                          {item}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
-                <img src="./price_shape.svg" alt="" className="absolute left-[300px]" />
-                <ul className="leading-loose">
-                  <li className="flex gap-3 items-center">Refrigerant leak detection & repair</li>
-                  <li className="flex gap-3 items-center">Thermostat replacement</li>
-                  <li className="flex gap-3 items-center">Clean condenser coil</li>
-                  <li className="flex gap-3 items-center">Air filter replacement</li>
-                  <li className="flex gap-3 items-center">Clean condenser coil</li>
-                  <li className="flex gap-3 items-center">AC fan replacement</li>
-                </ul>
-                </div>
-              </div>
-              <div className="flex justify-center shadow-lg mx-12 py-10 border">
-              <div>
-              <div className="flex items-center gap-3 my-4">
-                <img src="./plan22.png" alt="" className="w-24 h-20"/>
-                <p className="text-xl font-bold underline">Standard Plan</p>
-                </div>
-              <img src="./price_shape.svg" alt="" className="absolute left-[870px]" />
-                <ul className="leading-loose">
-                  <li className="flex gap-3 items-center"><img src="./tick.svg" alt="" className="w-4 h-4" />Refrigerant leak detection & repair</li>
-                  <li className="flex gap-3 items-center"><img src="./tick.svg" alt="" className="w-4 h-4" />Thermostat replacement</li>
-                  <li className="flex gap-3 items-center"><img src="./tick.svg" alt="" className="w-4 h-4" />Clean condenser coil</li>
-                  <li className="flex gap-3 items-center"><img src="./tick.svg" alt="" className="w-4 h-4" />Air filter replacement</li>
-                  <li className="flex gap-3 items-center"><img src="./tick.svg" alt="" className="w-4 h-4" />Clean condenser coil</li>
-                  <li className="flex gap-3 items-center"><img src="./tick.svg" alt="" className="w-4 h-4" />AC fan replacement</li>
-                </ul>
-              </div>
-              </div>
-              <div className="flex justify-center shadow-lg mx-12 py-10 border">
-              <div>
-              <div className="flex items-center gap-3 my-4">
-                <img src="./plan33.png" alt="" className="w-24 h-20"/>
-                <p className="text-xl font-bold underline">Premium Plan</p>
-                </div>
-              <img src="./price_shape.svg" alt="" className="absolute right-[50px]" />
-                <ul className="leading-loose">
-                  <li className="flex gap-3 items-center"><img src="./tick.svg" alt="" className="w-4 h-4" />Refrigerant leak detection & repair</li>
-                  <li className="flex gap-3 items-center"><img src="./tick.svg" alt="" className="w-4 h-4" />Thermostat replacement</li>
-                  <li className="flex gap-3 items-center"><img src="./tick.svg" alt="" className="w-4 h-4" />Clean condenser coil</li>
-                  <li className="flex gap-3 items-center"><img src="./tick.svg" alt="" className="w-4 h-4" />Air filter replacement</li>
-                  <li className="flex gap-3 items-center"><img src="./tick.svg" alt="" className="w-4 h-4" />Clean condenser coil</li>
-                  <li className="flex gap-3 items-center"><img src="./tick.svg" alt="" className="w-4 h-4" />AC fan replacement</li>
-                </ul>
-              </div>
-              </div>
+              ))}
             </div>
           </TabsContent>
           <TabsContent value="yearly" className='mt-10'>
-          <div className="grid grid-cols-3 gap-x-16">
-              <div className="flex justify-center shadow-lg mx-12 py-10 border" >
-                <div>
-                <div className="flex items-center gap-3 my-4">
-                <img src="./plan111.png" alt="" className="w-24 h-20"/>
-                <p className="text-xl font-bold underline">Basic Plan</p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {['Basic Plan', 'Standard Plan', 'Premium Plan'].map((plan, index) => (
+                <div key={index} className="flex justify-center shadow-lg border mx-4 md:mx-0 py-10">
+                  <div className="relative">
+                    <div className="flex items-center gap-3 my-4">
+                      <img src={`./plan${index + 1}1.png`} alt="" className="w-24 h-20"/>
+                      <p className="text-xl font-bold underline">{plan}</p>
+                    </div>
+                    <img src="./price_shape.svg" alt="" className="absolute left-1/2 transform -translate-x-1/2 top-16" />
+                    <ul className="leading-loose">
+                      {['Refrigerant leak detection & repair', 'Thermostat replacement', 'Clean condenser coil', 'Air filter replacement', 'AC fan replacement'].map((item, idx) => (
+                        <li key={idx} className="flex gap-3 items-center">
+                          <img src="./tick.svg" alt="" className="w-4 h-4" />
+                          {item}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
-                <img src="./price_shape.svg" alt="" className="absolute left-[300px]" />
-                <ul className="leading-loose">
-                  <li className="flex gap-3 items-center"><img src="./tick.svg" alt="" className="w-4 h-4" />Refrigerant leak detection & repair</li>
-                  <li className="flex gap-3 items-center"><img src="./tick.svg" alt="" className="w-4 h-4" />Thermostat replacement</li>
-                  <li className="flex gap-3 items-center"><img src="./tick.svg" alt="" className="w-4 h-4" />Clean condenser coil</li>
-                  <li className="flex gap-3 items-center"><img src="./tick.svg" alt="" className="w-4 h-4" />Air filter replacement</li>
-                  <li className="flex gap-3 items-center"><img src="./tick.svg" alt="" className="w-4 h-4" />Clean condenser coil</li>
-                  <li className="flex gap-3 items-center"><img src="./tick.svg" alt="" className="w-4 h-4" />AC fan replacement</li>
-                </ul>
-                </div>
-              </div>
-              <div className="flex justify-center shadow-lg mx-12 py-10 border">
-              <div>
-              <div className="flex items-center gap-3 my-4">
-                <img src="./plan222.png" alt="" className="w-24 h-20"/>
-                <p className="text-xl font-bold underline">Standard Plan</p>
-                </div>
-              <img src="./price_shape.svg" alt="" className="absolute left-[870px]" />
-                <ul className="leading-loose">
-                  <li className="flex gap-3 items-center"><img src="./tick.svg" alt="" className="w-4 h-4" />Refrigerant leak detection & repair</li>
-                  <li className="flex gap-3 items-center"><img src="./tick.svg" alt="" className="w-4 h-4" />Thermostat replacement</li>
-                  <li className="flex gap-3 items-center"><img src="./tick.svg" alt="" className="w-4 h-4" />Clean condenser coil</li>
-                  <li className="flex gap-3 items-center"><img src="./tick.svg" alt="" className="w-4 h-4" />Air filter replacement</li>
-                  <li className="flex gap-3 items-center"><img src="./tick.svg" alt="" className="w-4 h-4" />Clean condenser coil</li>
-                  <li className="flex gap-3 items-center"><img src="./tick.svg" alt="" className="w-4 h-4" />AC fan replacement</li>
-                </ul>
-              </div>
-              </div>
-              <div className="flex justify-center shadow-lg mx-12 py-10 border">
-              <div>
-              <div className="flex items-center gap-3 my-4">
-                <img src="./plan333.png" alt="" className="w-24 h-20"/>
-                <p className="text-xl font-bold underline">Premium Plan</p>
-                </div>
-              <img src="./price_shape.svg" alt="" className="absolute right-[50px]" />
-                <ul className="leading-loose">
-                  <li className="flex gap-3 items-center"><img src="./tick.svg" alt="" className="w-4 h-4" />Refrigerant leak detection & repair</li>
-                  <li className="flex gap-3 items-center"><img src="./tick.svg" alt="" className="w-4 h-4" />Thermostat replacement</li>
-                  <li className="flex gap-3 items-center"><img src="./tick.svg" alt="" className="w-4 h-4" />Clean condenser coil</li>
-                  <li className="flex gap-3 items-center"><img src="./tick.svg" alt="" className="w-4 h-4" />Air filter replacement</li>
-                  <li className="flex gap-3 items-center"><img src="./tick.svg" alt="" className="w-4 h-4" />Clean condenser coil</li>
-                  <li className="flex gap-3 items-center"><img src="./tick.svg" alt="" className="w-4 h-4" />AC fan replacement</li>
-                </ul>
-              </div>
-              </div>
+              ))}
             </div>
           </TabsContent>
         </Tabs>

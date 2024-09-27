@@ -26,8 +26,8 @@ const BlogDetail = () => {
           <p>Blog</p>
         </div>
       </div>
-      <div className="grid grid-cols-6 gap-5 mx-40">
-        <div className="col-span-4">
+      <div className="grid grid-cols-1 md:grid-cols-6 gap-5 mx-5 md:mx-40">
+        <div className="col-span-1 md:col-span-4">
           <div className="mt-10 shadow-lg pb-6 mb-8">
             <img
               src="./pro-7.jpg"
@@ -73,7 +73,7 @@ const BlogDetail = () => {
                 inspection, airflow measurement, adjustments to dampers and
                 registers and a final system test
               </p>
-              <div className="grid grid-cols-2 gap-4 mt-7">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-7">
                 <img src="./pro-6.jpg" className="rounded-xl" alt="" />
                 <img src="./pro-7.jpg" className="rounded-xl" alt="" />
               </div>
@@ -82,7 +82,7 @@ const BlogDetail = () => {
                 recommendations, and air your detailed cost estimate or an
                 upgrade
               </p>
-              <ul className="grid grid-cols-2 gap-4 text-xl mt-7 border-b pb-8 font-semibold text-gray-500">
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xl mt-7 border-b pb-8 font-semibold text-gray-500">
               <li className="flex gap-4 items-center">
                 <img src="./tm.png" alt="" className="w-5 h-5" />
                 Precision Installations
@@ -101,13 +101,13 @@ const BlogDetail = () => {
               </li>
             </ul>
             </div>
-            <div className="grid grid-cols-2 justify-between items-center mx-7 pb-4 mt-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 justify-between items-center mx-7 pb-4 mt-4">
             <div className="flex items-center gap-4">
                 <p className="text-xl font-semibold">Tags:</p>
                 <Button className='bg-[#ff550008] text-black hover:bg-orange-500 hover:text-white'>Application</Button>
                 <Button className='bg-[#ff550008] text-black hover:bg-orange-500 hover:text-white'>Installations</Button>
             </div>
-            <div className="flex justify-end items-center gap-4">
+            <div className="flex justify-start mt-5 md:mt-0 md:justify-end items-center gap-4">
                 <p className="text-lg font-semibold">Share:</p>
                 <Link className="bg-gray-200 p-2 rounded-full hover:bg-orange-500 hover:text-white"><FacebookIcon className="w-5 h-5"/></Link>
                 <Link className="bg-gray-200 p-2 rounded-full hover:bg-orange-500 hover:text-white"><TwitterIcon className="w-5 h-5"/></Link>
@@ -119,41 +119,41 @@ const BlogDetail = () => {
           <div className="shadow-lg mt-12 border rounded-md px-8 py-10">
             <p className="flex gap-3 items-center text-2xl font-bold"><img src="./message.png" className="w-8 h-8" alt="" /> Comments (3)</p>
             <div className="grid grid-cols-6 justify-center gap-3 mt-7 bg-[#ff550008] px-6 py-6 rounded-lg shadow-lg">
-                <div>
+                <div className="col-span-6 md:col-span-1">
                     <img src="./pro-8.jpg" alt="" className="rounded-xl" />
                 </div>
-                <div className="col-span-4">
+                <div className="col-span-6 md:col-span-4">
                     <p className="text-lg font-bold">Jenny Wilson</p>
                     <p className="text-sm text-gray-500">12 May, 2024 05:56pm</p>
                     <p className="mt-4 text-sm text-gray-500">This can indicate loose parts or a need for professional maintenance air as Regular maintenance, clean filters,</p>
                 </div>
-                <div>
+                <div className="col-span-6 md:col-span-1">
                     <Link to='' className="text-orange-500 font-semibold text-sm">Reply</Link>
                 </div>
             </div>
             <div className="grid grid-cols-6 justify-center gap-3 mt-7 bg-[#ff550008] px-6 py-6 rounded-lg shadow-lg">
-                <div>
+                <div className="col-span-6 md:col-span-1">
                     <img src="./pro-9.jpg" alt="" className="rounded-xl" />
                 </div>
-                <div className="col-span-4">
+                <div className="col-span-6 md:col-span-4">
                     <p className="text-lg font-bold">Jenny Wilson</p>
                     <p className="text-sm text-gray-500">12 May, 2024 05:56pm</p>
                     <p className="mt-4 text-sm text-gray-500">This can indicate loose parts or a need for professional maintenance air as Regular maintenance, clean filters,</p>
                 </div>
-                <div>
+                <div className="col-span-6 md:col-span-1">
                     <Link to='' className="text-orange-500 font-semibold text-sm">Reply</Link>
                 </div>
             </div>
             <div className="grid grid-cols-6 justify-center gap-3 mt-7 bg-[#ff550008] px-6 py-6 rounded-lg shadow-lg">
-                <div>
+                <div className="col-span-6 md:col-span-1">
                     <img src="./pro-10.jpg" alt="" className="rounded-xl" />
                 </div>
-                <div className="col-span-4">
+                <div className="col-span-6 md:col-span-4">
                     <p className="text-lg font-bold">Jenny Wilson</p>
                     <p className="text-sm text-gray-500">12 May, 2024 05:56pm</p>
                     <p className="mt-4 text-sm text-gray-500">This can indicate loose parts or a need for professional maintenance air as Regular maintenance, clean filters,</p>
                 </div>
-                <div>
+                <div className="col-span-6 md:col-span-1">
                     <Link to='' className="text-orange-500 font-semibold text-sm">Reply</Link>
                 </div>
             </div>
@@ -174,7 +174,7 @@ const BlogDetail = () => {
           </div>
           
         </div>
-        <div className="col-span-2">
+        <div className="col-span-1 md:col-span-2">
           <div className="p-8 rounded-xl border my-4 mt-10 bg-[#ecf1f5]">
             <div className="relative flex items-center">
               <Input type="email" placeholder="Enter Keyword" className="" />

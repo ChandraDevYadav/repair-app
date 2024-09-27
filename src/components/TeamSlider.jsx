@@ -74,7 +74,7 @@ const TeamSlider = () => {
   return (
     <div className="relative max-w-[110rem] mx-auto py-12 px-4 sm:px-6 lg:px-8">
       <p className="flex gap-4 ml-6 text-xl text-orange-500 font-medium"><img src="./ac.png" className="w-6 h-6 animate-rotate" alt="Rotating Image" />Expert Team</p>
-      <h2 className="text-5xl font-bold mb-8 ml-6 text-[#010f34]">Meet Our Team of Expert</h2>
+      <h2 className="text-3xl md:text-5xl mt-4 md:mt-0 font-bold mb-8 ml-6 text-[#010f34]">Meet Our Team of Expert</h2>
 
       {/* Control Buttons */}
       <div className="absolute top-9 right-12 flex space-x-2 mt-2">

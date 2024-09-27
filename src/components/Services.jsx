@@ -19,7 +19,7 @@ const Services = () => {
           Breathe Easy Air Quality <br /> Assessment
           </h1>
         </div>
-      <div className="grid grid-cols-3 gap-20" >
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-20" >
       <div>
         <div className="flex justify-center items-center">
           <div className="relative w-[25rem] h-[25rem] bg-gray-200 clip-octagon flex flex-col items-center justify-center text-white p-4">
@@ -40,7 +40,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="bg-red-500 w-[340px] h-20 relative bottom-20 ml-3 rounded-br-full rounded-bl-full flex justify-center items-center">
+        <div className="bg-red-500 w-[340px] h-20 relative bottom-20 ml-[-5.25rem] md:ml-3 rounded-br-full rounded-bl-full flex justify-center items-center">
           <div className="bg-white p-4 rounded-full relative bottom-8">
             <img src="./service_icon_1.svg" alt="" className="w-8 h-8" />
           </div>
@@ -66,7 +66,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="bg-red-500 w-[340px] h-20 relative bottom-20 ml-3 rounded-br-full rounded-bl-full flex justify-center items-center">
+        <div className="bg-red-500 w-[340px] h-20 relative bottom-20 ml-[-5.25rem] md:ml-3 rounded-br-full rounded-bl-full flex justify-center items-center">
           <div className="bg-white p-4 rounded-full relative bottom-8">
             <img src="./service_icon_2.svg" alt="" className="w-8 h-8" />
           </div>
@@ -92,7 +92,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="bg-red-500 w-[340px] h-20 relative bottom-20 ml-3 rounded-br-full rounded-bl-full flex justify-center items-center">
+        <div className="bg-red-500 w-[340px] h-20 relative bottom-20 ml-[-5.25rem] md:ml-3 rounded-br-full rounded-bl-full flex justify-center items-center">
           <div className="bg-white p-4 rounded-full relative bottom-8">
             <img src="./service_icon_3.svg" alt="" className="w-8 h-8" />
           </div>
@@ -118,7 +118,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="bg-red-500 w-[340px] h-20 relative bottom-20 ml-3 rounded-br-full rounded-bl-full flex justify-center items-center">
+        <div className="bg-red-500 w-[340px] h-20 relative bottom-20 ml-[-5.25rem] md:ml-3 rounded-br-full rounded-bl-full flex justify-center items-center">
           <div className="bg-white p-4 rounded-full relative bottom-8">
             <img src="./service_icon_4.svg" alt="" className="w-8 h-8" />
           </div>
@@ -144,7 +144,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="bg-red-500 w-[340px] h-20 relative bottom-20 ml-3 rounded-br-full rounded-bl-full flex justify-center items-center">
+        <div className="bg-red-500 w-[340px] h-20 relative bottom-20 ml-[-5.25rem] md:ml-3 rounded-br-full rounded-bl-full flex justify-center items-center">
           <div className="bg-white p-4 rounded-full relative bottom-8">
             <img src="./service_icon_5.svg" alt="" className="w-8 h-8" />
           </div>
@@ -170,7 +170,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="bg-red-500 w-[340px] h-20 relative bottom-20 ml-3 rounded-br-full rounded-bl-full flex justify-center items-center">
+        <div className="bg-red-500 w-[340px] h-20 relative bottom-20 ml-[-5.25rem] md:ml-3 rounded-br-full rounded-bl-full flex justify-center items-center">
           <div className="bg-white p-4 rounded-full relative bottom-8">
             <img src="./service_icon_6.svg" alt="" className="w-8 h-8" />
           </div>
