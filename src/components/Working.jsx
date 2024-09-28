@@ -61,8 +61,8 @@ const Working = () => {
             key={index}
             className='flex justify-center text-center items-center'
           >
-            <div className='shadow-lg rounded-xl bg-white justify-items-center text-center items-center px-5'>
-              <div className='bg-white border-2 border-gray-500 rounded-full relative w-16 h-16 p-3 mx-auto'>
+            <div className='shadow-lg rounded-xl bg-white justify-items-center text-center items-center px-5 py-6'>
+              <div className='bg-white border-2 border-gray-500 rounded-full relative w-16 h-16 p-4 mx-auto'>
                 <img src={service.icon} alt={service.title} />
               </div>
               <h1 className='text-3xl font-bold mt-5'>{service.title}</h1>

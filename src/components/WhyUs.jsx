@@ -3,7 +3,7 @@ import React from "react";
 const WhyUs = () => {
   return (
     <div
-      className="grid grid-cols-10 gap-4 h-[50rem] md:h-auto"
+      className="grid grid-cols-10 gap-4 h-auto md:h-auto pb-10"
       style={{
         backgroundImage: `url('./why_chose_us_bg_1.jpg')`,
         backgroundRepeat: 'no-repeat',

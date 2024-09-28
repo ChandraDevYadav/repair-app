@@ -128,7 +128,7 @@ const AppendDots = () => {
         </div>
 
         {/* Repeat similar structure for other slides */}
-        <div className="h-64 flex flex-col md:flex-row items-center justify-center">
+        <div className="flex flex-col md:flex-row items-center justify-center">
           <div
             className="grid grid-cols-1 md:grid-cols-2 h-full"
             style={{ backgroundImage: `url('./hero_bg_2.jpg')` }}
@@ -214,7 +214,7 @@ const AppendDots = () => {
           </div>
         </div>
 
-        <div className="h-64 flex flex-col md:flex-row items-center justify-center">
+        <div className="flex flex-col md:flex-row items-center justify-center">
           <div
             className="grid grid-cols-1 md:grid-cols-2 h-full"
             style={{ backgroundImage: `url('./hero_bg_3.jpg')` }}

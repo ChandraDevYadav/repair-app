@@ -10,7 +10,7 @@ const Frequently = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-5 mb-32">
       <div className="col-span-1 md:col-span-2">
-        <div className="relative ml-16 md:ml-24">
+        <div className="relative ml-12 md:ml-24">
           <img
             src="./faq_img_1.jpg"
             alt=""
@@ -20,9 +20,9 @@ const Frequently = () => {
           <img 
             src="./faq_img_2.jpg" 
             alt="" 
-            className="absolute w-[14rem] h-[12rem] md:w-[16rem] md:h-[15rem] top-[15rem] left-[8rem] md:left-[13rem] rounded-br-2xl rounded-tl-md border-4 border-white" 
+            className="absolute w-[14rem] h-[12rem] md:w-[16rem] md:h-[15rem] top-[15rem] left-[6rem] md:left-[13rem] rounded-br-2xl rounded-tl-md border-4 border-white" 
           />
-          <div className="bg-orange-500 p-4 absolute top-[6.5rem] left-[14rem] md:left-[19rem]">
+          <div className="bg-orange-500 p-4 absolute top-[7.8rem] left-[14rem] md:left-[19rem]">
             <h1 className="text-3xl md:text-4xl font-bold text-white">25+</h1>
             <p className="text-center text-white font-medium">Years<br />Experience</p>
           </div>

@@ -25,7 +25,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="bg-red-500 w-[340px] h-20 relative bottom-20 ml-[-6.25rem] md:ml-3 rounded-br-full rounded-bl-full flex justify-center items-center">
+        <div className="bg-red-500 w-[340px] h-20 relative bottom-12 md:bottom-20 ml-[-6.25rem] md:ml-3 rounded-br-full rounded-bl-full flex justify-center items-center">
           <div className="bg-white p-4 rounded-full relative bottom-8">
             <img src="./service_icon_1.svg" alt="" className="w-8 h-8" />
           </div>
@@ -51,7 +51,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="bg-red-500 w-[340px] h-20 relative bottom-20 ml-[-6.25rem] md:ml-3 rounded-br-full rounded-bl-full flex justify-center items-center">
+        <div className="bg-red-500 w-[340px] h-20 relative bottom-12 md:bottom-20 ml-[-6.25rem] md:ml-3 rounded-br-full rounded-bl-full flex justify-center items-center">
           <div className="bg-white p-4 rounded-full relative bottom-8">
             <img src="./service_icon_2.svg" alt="" className="w-8 h-8" />
           </div>
@@ -77,7 +77,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="bg-red-500 w-[340px] h-20 relative bottom-20 ml-[-6.25rem] md:ml-3 rounded-br-full rounded-bl-full flex justify-center items-center">
+        <div className="bg-red-500 w-[340px] h-20 relative bottom-12 md:bottom-20 ml-[-6.25rem] md:ml-3 rounded-br-full rounded-bl-full flex justify-center items-center">
           <div className="bg-white p-4 rounded-full relative bottom-8">
             <img src="./service_icon_3.svg" alt="" className="w-8 h-8" />
           </div>
@@ -103,7 +103,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="bg-red-500 w-[340px] h-20 relative bottom-20 ml-[-6.25rem] md:ml-3 rounded-br-full rounded-bl-full flex justify-center items-center">
+        <div className="bg-red-500 w-[340px] h-20 relative bottom-12 md:bottom-20 ml-[-6.25rem] md:ml-3 rounded-br-full rounded-bl-full flex justify-center items-center">
           <div className="bg-white p-4 rounded-full relative bottom-8">
             <img src="./service_icon_4.svg" alt="" className="w-8 h-8" />
           </div>
@@ -129,7 +129,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="bg-red-500 w-[340px] h-20 relative bottom-20 ml-[-6.25rem] md:ml-3 rounded-br-full rounded-bl-full flex justify-center items-center">
+        <div className="bg-red-500 w-[340px] h-20 relative bottom-12 md:bottom-20 ml-[-6.25rem] md:ml-3 rounded-br-full rounded-bl-full flex justify-center items-center">
           <div className="bg-white p-4 rounded-full relative bottom-8">
             <img src="./service_icon_5.svg" alt="" className="w-8 h-8" />
           </div>
@@ -155,7 +155,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="bg-red-500 w-[340px] h-20 relative bottom-20 ml-[-6.25rem] md:ml-3 rounded-br-full rounded-bl-full flex justify-center items-center">
+        <div className="bg-red-500 w-[340px] h-20 relative bottom-12 md:bottom-20 ml-[-6.25rem] md:ml-3 rounded-br-full rounded-bl-full flex justify-center items-center">
           <div className="bg-white p-4 rounded-full relative bottom-8">
             <img src="./service_icon_6.svg" alt="" className="w-8 h-8" />
           </div>
