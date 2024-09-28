@@ -88,7 +88,7 @@ const Navbar = () => {
         </div>
 
         {/* Toggle button for mobile view */}
-        <div className="md:hidden">
+        <div className="md:hidden ml-12">
   <button onClick={toggleMenu} className="text-sm font-semibold">
     {isOpen ? (
       <img src="./close.png" alt="Close Menu" className="w-6 h-6" />
@@ -100,8 +100,9 @@ const Navbar = () => {
 
         {/* Mobile menu items */}
         {isOpen && (
-          <div className="absolute top-[8rem] z-10 left-0 w-full bg-gray-300 shadow-md md:hidden">
+          <div className="absolute top-[8.5rem] z-10 left-[134px] w-2/3 bg-gray-300 shadow-md md:hidden">
             <div className="flex flex-col gap-4 p-4">
+              
               <Link to="/" className="text-sm font-semibold">Home</Link>
               <Link to="/about" className="text-sm font-semibold">About</Link>
               <DropdownMenu>
@@ -134,12 +135,13 @@ const Navbar = () => {
                 </DropdownMenuContent>
               </DropdownMenu>
               <Link to='/contact' className="text-sm font-semibold">Contact</Link>
+              <Link to='/register' className="text-sm font-semibold">Login</Link>
             </div>
           </div>
         )}
 
         <div className="hidden md:block">
-          <Link to='/login' className="text-md px-6 py-2 rounded-lg text-white bg-orange-500 flex gap-2">Login</Link>
+          <Link to='/register' className="text-md px-6 py-2 rounded-lg text-white bg-orange-500 flex gap-2">Login</Link>
         </div>
       </div>
     </div>

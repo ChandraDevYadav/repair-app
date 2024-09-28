@@ -30,7 +30,7 @@ const Register = () => {
             backgroundImage: `url('./bg.jpg')`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'
           }}
         >
-          <div className="p-16 backdrop-blur-sm bg-white/30" >
+          <div className="p-4 md:p-16 backdrop-blur-sm bg-white/30" >
             <h2 className="text-xl font-semibold mb-10 text-center">Login</h2>
             <form className="space-y-4">
               <div>
@@ -68,7 +68,7 @@ const Register = () => {
                 Forgot Password?{" "}
                 <span
                   onClick={() => setIsLogin(true)}
-                  className="text-indigo-600 cursor-pointer"
+                  className="text-black font-bold cursor-pointer"
                 >
                   Reset
                 </span>
@@ -77,7 +77,7 @@ const Register = () => {
                 Don't have an account?{" "}
                 <span
                   onClick={() => setIsLogin(false)}
-                  className="text-indigo-600 cursor-pointer"
+                  className="text-black font-bold cursor-pointer"
                 >
                   Register
                 </span>
@@ -95,7 +95,7 @@ const Register = () => {
             backgroundImage: `url('./bg.jpg')`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'
           }}
         >
-          <div className="px-20 py-6 backdrop-blur-sm bg-white/30">
+          <div className="p-4 md:px-20 py-6 backdrop-blur-sm bg-white/30">
             <h2 className="text-xl font-semibold mb-3 text-center">Register</h2>
             <form className="space-y-4">
               <div>
@@ -143,7 +143,7 @@ const Register = () => {
                 Already have an account?{" "}
                 <span
                   onClick={() => setIsLogin(true)}
-                  className="text-indigo-600 cursor-pointer"
+                  className="text-black font-bold cursor-pointer"
                 >
                   Login
                 </span>
