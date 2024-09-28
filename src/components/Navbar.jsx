@@ -41,7 +41,7 @@ const Navbar = () => {
       </div>
       <div className="flex justify-around items-center px-10 py-5 rounded-tl-[4.5rem] bg-white ml-12">
         <div className="flex items-center">
-          <img src="./slack.png" alt="" className="w-8 md:w-12 h-8 md:h-12" />
+          <Link to='/'><img src="./slack.png" alt="" className="w-8 md:w-12 h-8 md:h-12" /></Link>
           <div className="px-4">
             <h1 className="text-xl md:text-2xl font-bold">Chan Dra Dev</h1>
             <p className="text-md text-orange-500 font-semibold">
@@ -89,14 +89,18 @@ const Navbar = () => {
 
         {/* Toggle button for mobile view */}
         <div className="md:hidden">
-          <button onClick={toggleMenu} className="text-sm font-semibold">
-            {isOpen ? "Close" : "Menu"}
-          </button>
-        </div>
+  <button onClick={toggleMenu} className="text-sm font-semibold">
+    {isOpen ? (
+      <img src="./close.png" alt="Close Menu" className="w-6 h-6" />
+    ) : (
+      <img src="./menu.png" alt="Open Menu" className="w-8 h-8" />
+    )}
+  </button>
+</div>
 
         {/* Mobile menu items */}
         {isOpen && (
-          <div className="absolute top-[8rem] z-10 left-0 w-full bg-white shadow-md md:hidden">
+          <div className="absolute top-[8rem] z-10 left-0 w-full bg-gray-300 shadow-md md:hidden">
             <div className="flex flex-col gap-4 p-4">
               <Link to="/" className="text-sm font-semibold">Home</Link>
               <Link to="/about" className="text-sm font-semibold">About</Link>

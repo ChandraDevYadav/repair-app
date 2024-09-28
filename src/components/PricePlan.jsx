@@ -3,7 +3,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const PricePlan = () => {
   return (
-    <div className="my-[16rem] md:my-12">
+    <div className="my-[18rem] md:my-12">
       <div className="mx-4 md:mx-20">
         <p className="text-xl font-medium text-orange-500 flex gap-3 items-center">
           <img

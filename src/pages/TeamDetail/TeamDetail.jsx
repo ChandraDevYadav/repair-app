@@ -29,12 +29,12 @@ const TeamDetail = () => {
           <p>TEAM DETAIL</p>
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-5 mx-36 my-32">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mx-6 md:mx-36 my-8 md:my-32">
         <div>
-          <div className="p-5 rounded-xl border mx-8">
+          <div className="p-5 rounded-xl border mx-0 md:mx-8">
             <img src="./team_member_details_1.jpg" alt="" />
           </div>
-          <div className="mx-8 my-16">
+          <div className="mx-4 md:mx-8 my-8 md:my-16">
             <p className="text-2xl font-bold">About Me</p>
             <p className="text-gray-500 mt-6">
               Professional consultation services Site evaluation, load
@@ -53,7 +53,7 @@ const TeamDetail = () => {
         </div>
         <div>
           <div>
-            <p className="text-5xl font-semibold">Darlene Robertson</p>
+            <p className="text-4xl md:text-5xl font-semibold">Darlene Robertson</p>
             <p className="text-orange-500 mt-4">Ace Technician</p>
           </div>
           <div className="flex gap-2 mt-8">

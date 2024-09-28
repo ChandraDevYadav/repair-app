@@ -4,11 +4,11 @@ import { ArrowRight } from "lucide-react";
 const Services = () => {
   return (
     <div className="px-32 py-16" style={{ backgroundImage: `url('./service_bg_1.svg')`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize: 'cover' }}>
-      <div className="grid grid-cols-3 gap-20" >
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-20" >
       <div>
         <div className="flex justify-center items-center">
-          <div className="relative w-[25rem] h-[25rem] bg-gray-200 clip-octagon flex flex-col items-center justify-center text-white p-4">
-            <div className="relative w-[23rem] h-[23rem] bg-orange-500 clip-octagon flex flex-col items-center justify-center text-white p-4">
+          <div className="relative w-[21rem] md:w-[25rem] h-[21rem] md:h-[25rem] bg-gray-200 clip-octagon flex flex-col items-center justify-center text-white p-4">
+            <div className="relative w-[19rem] md:w-[23rem] h-[19rem] md:h-[23rem] bg-orange-500 clip-octagon flex flex-col items-center justify-center text-white p-4">
               <div className="absolute -top-4 w-[9.5rem] h-24 bg-gray-200 rounded-b-full flex items-center justify-center">
                 <h1 className="text-3xl font-bold text-black">01</h1>
               </div>
@@ -25,7 +25,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="bg-red-500 w-[340px] h-20 relative bottom-20 ml-2 rounded-br-full rounded-bl-full flex justify-center items-center">
+        <div className="bg-red-500 w-[340px] h-20 relative bottom-20 ml-[-6.25rem] md:ml-3 rounded-br-full rounded-bl-full flex justify-center items-center">
           <div className="bg-white p-4 rounded-full relative bottom-8">
             <img src="./service_icon_1.svg" alt="" className="w-8 h-8" />
           </div>
@@ -33,8 +33,8 @@ const Services = () => {
       </div>
       <div>
         <div className="flex justify-center items-center">
-          <div className="relative w-[25rem] h-[25rem] bg-gray-200 clip-octagon flex flex-col items-center justify-center text-white p-4">
-            <div className="relative w-[23rem] h-[23rem] bg-orange-500 clip-octagon flex flex-col items-center justify-center text-white p-4">
+          <div className="relative w-[21rem] md:w-[25rem] h-[21rem] md:h-[25rem] bg-gray-200 clip-octagon flex flex-col items-center justify-center text-white p-4">
+            <div className="relative w-[19rem] md:w-[23rem] h-[19rem] md:h-[23rem] bg-orange-500 clip-octagon flex flex-col items-center justify-center text-white p-4">
               <div className="absolute -top-4 w-[9.5rem] h-24 bg-gray-200 rounded-b-full flex items-center justify-center">
                 <h1 className="text-3xl font-bold text-black ">02</h1>
               </div>
@@ -51,7 +51,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="bg-red-500 w-[340px] h-20 relative bottom-20 ml-2 rounded-br-full rounded-bl-full flex justify-center items-center">
+        <div className="bg-red-500 w-[340px] h-20 relative bottom-20 ml-[-6.25rem] md:ml-3 rounded-br-full rounded-bl-full flex justify-center items-center">
           <div className="bg-white p-4 rounded-full relative bottom-8">
             <img src="./service_icon_2.svg" alt="" className="w-8 h-8" />
           </div>
@@ -59,8 +59,8 @@ const Services = () => {
       </div>
       <div>
         <div className="flex justify-center items-center">
-          <div className="relative w-[25rem] h-[25rem] bg-gray-200 clip-octagon flex flex-col items-center justify-center text-white p-4">
-            <div className="relative w-[23rem] h-[23rem] bg-orange-500 clip-octagon flex flex-col items-center justify-center text-white p-4">
+          <div className="relative w-[21rem] md:w-[25rem] h-[21rem] md:h-[25rem] bg-gray-200 clip-octagon flex flex-col items-center justify-center text-white p-4">
+            <div className="relative w-[19rem] md:w-[23rem] h-[19rem] md:h-[23rem] bg-orange-500 clip-octagon flex flex-col items-center justify-center text-white p-4">
               <div className="absolute -top-4 w-[9.5rem] h-24 bg-gray-200 rounded-b-full flex items-center justify-center">
                 <h1 className="text-3xl font-bold text-black ">03</h1>
               </div>
@@ -77,7 +77,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="bg-red-500 w-[340px] h-20 relative bottom-20 ml-2 rounded-br-full rounded-bl-full flex justify-center items-center">
+        <div className="bg-red-500 w-[340px] h-20 relative bottom-20 ml-[-6.25rem] md:ml-3 rounded-br-full rounded-bl-full flex justify-center items-center">
           <div className="bg-white p-4 rounded-full relative bottom-8">
             <img src="./service_icon_3.svg" alt="" className="w-8 h-8" />
           </div>
@@ -85,8 +85,8 @@ const Services = () => {
       </div>
       <div>
         <div className="flex justify-center items-center">
-          <div className="relative w-[25rem] h-[25rem] bg-gray-200 clip-octagon flex flex-col items-center justify-center text-white p-4">
-            <div className="relative w-[23rem] h-[23rem] bg-orange-500 clip-octagon flex flex-col items-center justify-center text-white p-4">
+          <div className="relative w-[21rem] md:w-[25rem] h-[21rem] md:h-[25rem] bg-gray-200 clip-octagon flex flex-col items-center justify-center text-white p-4">
+            <div className="relative w-[19rem] md:w-[23rem] h-[19rem] md:h-[23rem] bg-orange-500 clip-octagon flex flex-col items-center justify-center text-white p-4">
               <div className="absolute -top-4 w-[9.5rem] h-24 bg-gray-200 rounded-b-full flex items-center justify-center">
                 <h1 className="text-3xl font-bold text-black ">04</h1>
               </div>
@@ -103,7 +103,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="bg-red-500 w-[340px] h-20 relative bottom-20 ml-2 rounded-br-full rounded-bl-full flex justify-center items-center">
+        <div className="bg-red-500 w-[340px] h-20 relative bottom-20 ml-[-6.25rem] md:ml-3 rounded-br-full rounded-bl-full flex justify-center items-center">
           <div className="bg-white p-4 rounded-full relative bottom-8">
             <img src="./service_icon_4.svg" alt="" className="w-8 h-8" />
           </div>
@@ -111,8 +111,8 @@ const Services = () => {
       </div>
       <div>
         <div className="flex justify-center items-center">
-          <div className="relative w-[25rem] h-[25rem] bg-gray-200 clip-octagon flex flex-col items-center justify-center text-white p-4">
-            <div className="relative w-[23rem] h-[23rem] bg-orange-500 clip-octagon flex flex-col items-center justify-center text-white p-4">
+          <div className="relative w-[21rem] md:w-[25rem] h-[21rem] md:h-[25rem] bg-gray-200 clip-octagon flex flex-col items-center justify-center text-white p-4">
+            <div className="relative w-[19rem] md:w-[23rem] h-[19rem] md:h-[23rem] bg-orange-500 clip-octagon flex flex-col items-center justify-center text-white p-4">
               <div className="absolute -top-4 w-[9.5rem] h-24 bg-gray-200 rounded-b-full flex items-center justify-center">
                 <h1 className="text-3xl font-bold text-black ">05</h1>
               </div>
@@ -129,7 +129,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="bg-red-500 w-[340px] h-20 relative bottom-20 ml-2 rounded-br-full rounded-bl-full flex justify-center items-center">
+        <div className="bg-red-500 w-[340px] h-20 relative bottom-20 ml-[-6.25rem] md:ml-3 rounded-br-full rounded-bl-full flex justify-center items-center">
           <div className="bg-white p-4 rounded-full relative bottom-8">
             <img src="./service_icon_5.svg" alt="" className="w-8 h-8" />
           </div>
@@ -137,8 +137,8 @@ const Services = () => {
       </div>
       <div className="">
         <div className="flex justify-center items-center">
-          <div className="relative w-[25rem] h-[25rem] bg-gray-200 clip-octagon flex flex-col items-center justify-center text-white p-4">
-            <div className="relative w-[23rem] h-[23rem] bg-orange-500 clip-octagon flex flex-col items-center justify-center text-white p-4">
+          <div className="relative w-[21rem] md:w-[25rem] h-[21rem] md:h-[25rem] bg-gray-200 clip-octagon flex flex-col items-center justify-center text-white p-4">
+            <div className="relative w-[19rem] md:w-[23rem] h-[19rem] md:h-[23rem] bg-orange-500 clip-octagon flex flex-col items-center justify-center text-white p-4">
               <div className="absolute -top-4 w-[9.5rem] h-24 bg-gray-200 rounded-b-full flex items-center justify-center">
                 <h1 className="text-3xl font-bold text-black ">06</h1>
               </div>
@@ -155,7 +155,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="bg-red-500 w-[340px] h-20 relative bottom-20 ml-2 rounded-br-full rounded-bl-full flex justify-center items-center">
+        <div className="bg-red-500 w-[340px] h-20 relative bottom-20 ml-[-6.25rem] md:ml-3 rounded-br-full rounded-bl-full flex justify-center items-center">
           <div className="bg-white p-4 rounded-full relative bottom-8">
             <img src="./service_icon_6.svg" alt="" className="w-8 h-8" />
           </div>

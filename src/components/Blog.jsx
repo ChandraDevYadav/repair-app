@@ -5,10 +5,10 @@ const Blog = () => {
   return (
     <div className='mb-[12rem]'>
       <div className='relative'>
-        <img src="./blog_section_img_1.svg" alt="" className='absolute top-[99rem] md:top-[35rem]' />
+        <img src="./blog_section_img_1.svg" alt="" className='absolute top-[88rem] md:top-[35rem]' />
       </div>
       <div className="justify-center text-center mt-24">
-        <p className="text-xl font-medium justify-center text-orange-500 flex gap-3 items-center">
+        <p className="text-md md:text-xl font-medium justify-center text-orange-500 flex gap-3 items-center">
           <img
             src="./ac.png"
             className="w-6 h-6 animate-rotate"
@@ -16,7 +16,7 @@ const Blog = () => {
           />
           OUR NEW UPDATES
         </p>
-        <h1 className="text-5xl font-bold mt-5 mb-12 text-[#010f34]">
+        <h1 className="text-2xl md:text-5xl font-bold mt-5 mb-12 text-[#010f34]">
           Latest Articles & News from <br />
           The Blogs
         </h1>
@@ -59,7 +59,7 @@ const Blog = () => {
                   <p className='font-medium text-white pl-6'>08 Comments</p>
                 </div>
               </div>
-              <p className="text-2xl mt-5 font-semibold text-white mb-2">
+              <p className="text-xl md:text-2xl mt-5 font-semibold text-white mb-2">
                 Maintenance tasks can I do myself to keep my air conditioner
               </p>
               <button className='flex gap-2 text-white text-sm font-bold items-center mt-3'>READ MORE <ArrowRight className='w-4 h-4' /></button>

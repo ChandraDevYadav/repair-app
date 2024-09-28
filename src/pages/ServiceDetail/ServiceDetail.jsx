@@ -32,8 +32,8 @@ const ServiceDetail = () => {
           <p>SERVICE DETAILS</p>
         </div>
       </div>
-      <div className="grid grid-cols-6 gap-6 mx-44 mt-24">
-        <div className="col-span-4">
+      <div className="grid grid-cols-1 md:grid-cols-6 gap-6 mx-4 md:mx-44 mt-24">
+        <div className="col-span-6 md:col-span-4">
           <div className="p-8 rounded-xl border my-4">
             <img src="./service_details_1.jpg" alt="" />
             <p className="text-4xl font-bold my-5">Cooling You Can Count On</p>
@@ -88,7 +88,7 @@ const ServiceDetail = () => {
               ensure your air conditioning system is operating at its optimal
               settings for maximum comfort and efficiency
             </p>
-            <ul className="grid grid-cols-2 gap-4 text-xl mt-5 font-semibold text-gray-500">
+            <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xl mt-5 font-semibold text-gray-500">
               <li className="flex gap-4 items-center">
                 <img src="./tm.png" alt="" className="w-5 h-5" />
                 Precision Installations
@@ -161,7 +161,7 @@ const ServiceDetail = () => {
             </div>
           </div>
         </div>
-        <div className="col-span-2">
+        <div className="col-span-6 md:col-span-2">
           <div className="p-8 rounded-xl border my-4 bg-[#ecf1f5]">
             <div className="relative flex items-center">
               <Input type="email" placeholder="Enter Keyword" className="" />

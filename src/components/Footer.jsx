@@ -129,13 +129,13 @@ const Footer = () => {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 justify-between bg-orange-500 py-6">
         <div className="flex justify-center items-center text-white">
-          <p>
+          <p className="text-[12px] md:text-sm">
             Copyright@ 2024 <span className="text-gray-900">ChanDraDev</span>.
             All Rights Reserved.
           </p>
         </div>
         <div className="flex justify-center items-center">
-          <p className="text-white flex gap-5">
+          <p className="text-white flex gap-5 text-[12px] md:text-sm">
             Setting & Privacy
             <li>FAQ</li>
             <li>Support</li>
