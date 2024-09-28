@@ -42,7 +42,7 @@ const AppendDots = () => {
   return (
     <div className="mx-2">
       <Slider {...settings}>
-        <div className="h-[51rem] flex flex-col md:flex-row items-center justify-center">
+        <div className="flex flex-col md:flex-row items-center justify-center">
           <div
             className="grid grid-cols-1 md:grid-cols-2 h-full"
             style={{ backgroundImage: `url('./hero_bg_1.jpg')` }}
