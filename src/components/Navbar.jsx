@@ -88,7 +88,7 @@ const Navbar = () => {
         </div>
 
         {/* Toggle button for mobile view */}
-        <div className="md:hidden ml-8">
+        <div className="md:hidden">
   <button onClick={toggleMenu} className="text-sm font-semibold">
     {isOpen ? (
       <img src="./close.png" alt="Close Menu" className="w-6 h-6" />
